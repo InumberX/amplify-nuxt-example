@@ -11,7 +11,7 @@ applications:
             - yarn build
             - yarn start
       artifacts:
-        baseDirectory: .output/server
+        baseDirectory: .output
         files:
           - '**/*'
       cache:
