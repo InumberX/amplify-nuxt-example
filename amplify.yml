@@ -10,7 +10,7 @@ applications:
           commands:
             - yarn build
       artifacts:
-        baseDirectory: dist
+        baseDirectory: .output
         files:
           - '**/*'
       cache:
