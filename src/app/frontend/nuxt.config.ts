@@ -4,3 +4,4 @@ export default defineNuxtConfig({
     preset: 'node-server',
   },
 })
+
