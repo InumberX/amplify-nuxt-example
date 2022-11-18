@@ -9,6 +9,8 @@ applications:
         build:
           commands:
             - yarn build
+        postBuild:
+          commands:
             - yarn start
       artifacts:
         baseDirectory: .output
